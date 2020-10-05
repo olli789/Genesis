@@ -1,0 +1,181 @@
+body {
+    margin: auto;
+    width: 1109px;
+}
+
+header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 1109px;
+height: 23px;
+margin: auto;
+}
+
+li, a {
+    display: flex;
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+.nav__links, li {
+list-style: none;
+display: inline-block;
+padding: 0px 20px;
+}
+
+.nav__links, li, a{
+transition: all 0.3s ease 0s;
+}
+
+.nav__links, li, a:hover {
+color: blue;
+}
+
+.blue-color {
+  color: blue;
+}
+
+.container-one {
+  display: flex;
+width: 1000px;
+align-items: center;
+justify-content: space-between;
+height: 350px;
+margin-left: 25px;
+}
+
+.hr-width {
+display: inline-block;
+width: 22px;
+border-color: gray;
+}
+
+.pic-container {
+  display: grid;
+width: 1110px;
+height: 1960px;
+grid-template-columns: repeat(3, 1fr);
+}
+
+.container {
+  margin-top: 50px;
+  width: 1000px;
+display: flex;
+justify-content: space-evenly;
+}
+
+.gray {
+color: gray;
+}
+
+.awards-space {
+  display: flex;
+  width: 400px;
+}
+
+.awards-container {
+display: flex;
+justify-content: space-between;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1109px;
+  height: 200px;
+  margin: auto;
+  align-content: flex-end;
+}
+
+
+.footer-width {
+  width: 710px;
+}
+
+.dribble-logo-margin {
+margin-top: 4px;
+}
+
+.icon:hover {
+  background-color: rgba(0, 0, 255, 0.192);
+}
+
+.height-div {
+  height: 100px;
+}
+
+.list-container { 
+display: flex;
+width: 325px;
+height: 343px;
+justify-content: space-around;
+flex-direction: column;
+
+}
+
+.wrapper {display: flex;
+justify-content: space-between;}
+
+.box {
+  display: flex;
+  flex-direction: row;
+justify-content: space-between;
+}
+
+.hr-width1 {
+  width: 320px;
+}
+
+.wrapper-project-images {
+  display: flex;
+  width: 1110px;
+  height: fit-content;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+p {
+  padding: 0px;
+margin: 0px;
+}
+
+h4 {padding: 0px;
+margin: 0px;
+}
+
+hr {padding: 0px;
+margin: 0px;
+}
+
+.two {
+width: 200px;
+}
+
+.margins {
+margin-top: 50px;
+}
+
+.contact-container {display: flex;
+flex-direction: column;
+width: 475px;
+outline: none;
+}
+
+input, textarea {border-top-style: hidden;
+border-right-style: hidden;
+border-left-style: hidden;
+border-bottom-style: solid;
+}
+
+input:hover {background-color: #eee;}
+
+.btn {background-color:#4A4FF2;
+width: 125px;
+height: 50px;
+margin-bottom: 50px;
+color: white;}
+
+.btn:hover {background-color: green;}
